@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.javierconde.st">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="EuroAlarmas"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Actualizar_Solicitud"></activity>
+        <activity android:name=".Principal">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Menu_cliente" />
+        <activity android:name=".Menu_monitoreo" />
+        <activity android:name=".Menu_tecnico" />
+        <activity android:name=".Estatus_cliente" />
+        <activity android:name=".Solicitar_cliente" />
+        <activity android:name=".Estatus_tecnico" />
+        <activity android:name=".Info_recycler_cliente" />
+        <activity android:name=".Info_recycler_tecnico" />
+    </application>
+
+</manifest>

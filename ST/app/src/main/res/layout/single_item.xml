@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#000000"
+    android:layout_margin="16dp">
+
+    <TextView
+        android:id="@+id/main_no_orden"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        android:text="Numero Orden" />
+
+    <TextView
+        android:id="@+id/main_estado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:textColor="#FFFFFF"
+        android:text="Actividad Pendiente" />
+
+    <TextView
+        android:id="@+id/main_fecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fecha"
+        android:layout_gravity="right" />
+    <TextView
+        android:id="@+id/main_prioridad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:text="Prioridad alta" />
+    <TextView
+        android:id="@+id/main_domicilio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:text="Domicilio" />
+</LinearLayout>
